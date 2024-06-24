@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random House Picker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wheel-container">
+        <div id="wheel">
+            <div class="segment" data-house="Gryffindor">
+                <span>Gryffindor</span>
+            </div>
+            <div class="segment" data-house="Slytherin">
+                <span>Slytherin</span>
+            </div>
+            <div class="segment" data-house="Ravenclaw">
+                <span>Ravenclaw</span>
+            </div>
+            <div class="segment" data-house="Hufflepuff">
+                <span>Hufflepuff</span>
+            </div>
+        </div>
+    </div>
+    <div id="controls">
+        <input type="number" id="participantInput" placeholder="Number of participants">
+        <button id="spinButton">Spin</button>
+    </div>
+    <div id="result"></div>
+
+    <audio id="audio"></audio>
+    <img id="houseImage" src="" alt="House Image" style="display: none;">
+    <script src="scripts.js"></script>
+</body>
+</html>
